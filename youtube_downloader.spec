@@ -17,7 +17,7 @@ tk_files = [(os.path.join(tcl_dir, x), 'tk') for x in os.listdir(tcl_dir) if x.e
 a = Analysis(
     ['youtube_downloader.py'],
     pathex=[],
-    binaries=[('ffmpeg.exe', '.')],  # Include FFmpeg
+    binaries=[('ffmpe.exe', '.')],  # Include FFmpeg
     datas=[
         (tcl_dir, 'tcl'),
         (tk_dir, 'tk'),
